@@ -9,8 +9,7 @@ const About = () => {
                 About
             </p>
         </div>
-        <p className='text-xl mt-20'>
-        I'm a passionate Full Stack Developer with expertise in the MERN stack, focused on building dynamic and efficient web applications.I specialize in the MERN stack, leveraging MongoDB for flexible data management, Express.js for building efficient server-side applications, React.js for creating dynamic and interactive user interfaces, and Node.js to run scalable server-side code. These technologies enable me to develop full stack applications that are robust, efficient, and user-friendly, covering both frontend and backend development seamlessly.
+        <p className='text-xl mt-20'>I specialize in the MERN stack, leveraging MongoDB for flexible data management, Express.js for building efficient server-side applications, React.js for creating dynamic and interactive user interfaces, and Node.js to run scalable server-side code. These technologies enable me to develop full stack applications  covering both frontend and backend development seamlessly.
         </p>
 
         <br/>
