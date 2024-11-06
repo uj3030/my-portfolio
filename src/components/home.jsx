@@ -7,19 +7,19 @@ import TypingEffect from 'react-typing-effect';
 const Home = () => {
   const [hideTypingEffect, setHideTypingEffect] = useState(false);
 
-  // Function to handle clicks and hide typing effect
+
   const handleInteraction = () => {
     setHideTypingEffect(true);
 
-    // Reset to show the effect after some delay (if needed)
+  
     setTimeout(() => setHideTypingEffect(false), 3000);
   };
 
   useEffect(() => {
-    // Listen for clicks on the entire document
+
     document.addEventListener('click', handleInteraction);
 
-    // Cleanup the event listener on component unmount
+
     return () => {
       document.removeEventListener('click', handleInteraction);
     };
@@ -32,7 +32,7 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row pt-20 md:pt-40">
         <div className="flex flex-col justify-center h-full md:w-3/5 w-full">
-          {/* Conditionally render TypingEffect based on hideTypingEffect state */}
+
           {!hideTypingEffect && (
             <h1 className="text-3xl sm:text-5xl md:text-6xl font-bold text-white pt-6 md:pt-10">
               <TypingEffect
