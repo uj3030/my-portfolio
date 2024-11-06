@@ -117,9 +117,9 @@ const SocialLinks = () => {
           Resume <SiReaddotcv size={30} />
         </>
       ),
-      href: '/reusumeu.pdf', 
+      href: '/UpasanaJohar.pdf', 
       style: 'rounded-br-md',
-      download: true, // Use 'download' to trigger download
+      download: true,
     },
   ];
 
@@ -137,7 +137,7 @@ const SocialLinks = () => {
             <a
               href={href}
               className="flex justify-between items-center w-full text-sm text-white"
-              download={download ? 'resumeu.pdf' : undefined} 
+              download={download ? 'UpasanaJohar.pdf' : undefined} 
               target="_blank"
               rel="noopener noreferrer"
             >
